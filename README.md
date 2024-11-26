@@ -119,19 +119,6 @@ RBAC_Project/
 
 ---
 
-## Screenshots
-
-### 1. **User Management**
-![Users Page](https://via.placeholder.com/800x400)
-
-### 2. **Role Management**
-![Roles Page](https://via.placeholder.com/800x400)
-
-### 3. **Audit Logs**
-![Audit Logs Page](https://via.placeholder.com/800x400)
-
----
-
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
