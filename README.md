@@ -116,6 +116,18 @@ RBAC_Project/
 │   ├── server.js            # Backend API logic
 ├── README.md                # Documentation
 ```
+## Screenshots
+1. Login Page
+![image](https://github.com/user-attachments/assets/d3ef6995-36ba-4a92-81de-a5cd2e8f13cc)
+
+2. User Page
+![image](https://github.com/user-attachments/assets/ca6e50de-9351-46fd-9cd5-97156e2cd7b9)
+
+3. Roles Page
+![image](https://github.com/user-attachments/assets/13c6419f-5cf5-4807-ad07-6de70e531144)
+
+4. Audit-log
+![image](https://github.com/user-attachments/assets/e53e79f9-cebb-4953-b54a-92ae15b134eb)
 
 ---
 
