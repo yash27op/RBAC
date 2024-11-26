@@ -1,0 +1,353 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Jane Smithg",
+      "email": "jane.smith@example.comfg",
+      "role": "admin"
+    },
+    {
+      "id": 1732602338418,
+      "name": "harshit",
+      "email": "gmail@gmia",
+      "role": "mod"
+    },
+    {
+      "id": 1732640854588,
+      "name": "Aryan",
+      "email": "Singh",
+      "role": "supervisor"
+    },
+    {
+      "id": 1732643693591,
+      "name": "Amogh",
+      "email": "amogh@gmail.com",
+      "role": "Prefect"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1732643395943,
+      "name": "admin",
+      "perks": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": 1732643410377,
+      "name": "mod",
+      "perks": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": 1732643417960,
+      "name": "supervisor",
+      "perks": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": 1732643463100,
+      "name": "Prefect",
+      "perks": [
+        false,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": 1732643591191,
+      "name": "member",
+      "perks": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "id": 1732602338418,
+      "timestamp": "2024-11-26T06:25:38.418Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added user harshit (email@gmail.com) with role pransh"
+    },
+    {
+      "id": 1732634001527,
+      "timestamp": "2024-11-26T15:13:21.527Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role pransh. Changes: {\"id\":1732599283420,\"name\":\"pransh\",\"perks\":[false,true,false,false,true]}"
+    },
+    {
+      "id": 1732634001865,
+      "timestamp": "2024-11-26T15:13:21.865Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role pransh. Changes: {\"id\":1732599283420,\"name\":\"pransh\",\"perks\":[false,true,true,false,true]}"
+    },
+    {
+      "id": 1732634002550,
+      "timestamp": "2024-11-26T15:13:22.550Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role pransh. Changes: {\"id\":1732599283420,\"name\":\"pransh\",\"perks\":[false,true,true,true,true]}"
+    },
+    {
+      "id": 1732634003575,
+      "timestamp": "2024-11-26T15:13:23.575Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role pransh. Changes: {\"id\":1732599283420,\"name\":\"pransh\",\"perks\":[false,true,false,true,true]}"
+    },
+    {
+      "id": 1732634004387,
+      "timestamp": "2024-11-26T15:13:24.387Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role pransh. Changes: {\"id\":1732599283420,\"name\":\"pransh\",\"perks\":[true,true,false,true,true]}"
+    },
+    {
+      "id": 1732634004915,
+      "timestamp": "2024-11-26T15:13:24.915Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role pransh. Changes: {\"id\":1732599283420,\"name\":\"pransh\",\"perks\":[true,false,false,true,true]}"
+    },
+    {
+      "id": 1732640067375,
+      "timestamp": "2024-11-26T16:54:27.375Z",
+      "role": "Admin",
+      "eventType": "Delete",
+      "changes": "Deleted user easda (adasd)"
+    },
+    {
+      "id": 1732640854588,
+      "timestamp": "2024-11-26T17:07:34.588Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added user Yash (Naik) with role B"
+    },
+    {
+      "id": 1732643336602,
+      "timestamp": "2024-11-26T17:48:56.602Z",
+      "role": "Admin",
+      "eventType": "Delete",
+      "changes": "Deleted user lmoo (xd)"
+    },
+    {
+      "id": 1732643350290,
+      "timestamp": "2024-11-26T17:49:10.290Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated user Jane Smithg (jane.smith@example.comfg). Changes: {\"id\":2,\"name\":\"Jane Smithg\",\"email\":\"jane.smith@example.comfg\",\"role\":\"C\"}"
+    },
+    {
+      "id": 1732643388325,
+      "timestamp": "2024-11-26T17:49:48.325Z",
+      "role": "Admin",
+      "eventType": "Delete",
+      "changes": "Deleted role B"
+    },
+    {
+      "id": 1732643389281,
+      "timestamp": "2024-11-26T17:49:49.281Z",
+      "role": "Admin",
+      "eventType": "Delete",
+      "changes": "Deleted role C"
+    },
+    {
+      "id": 1732643395943,
+      "timestamp": "2024-11-26T17:49:55.943Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added role admin"
+    },
+    {
+      "id": 1732643397653,
+      "timestamp": "2024-11-26T17:49:57.653Z",
+      "role": "Admin",
+      "eventType": "Delete",
+      "changes": "Deleted role pransh"
+    },
+    {
+      "id": 1732643399449,
+      "timestamp": "2024-11-26T17:49:59.449Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role admin. Changes: {\"id\":1732643395943,\"name\":\"admin\",\"perks\":[true,false,false,false,false]}"
+    },
+    {
+      "id": 1732643400053,
+      "timestamp": "2024-11-26T17:50:00.053Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role admin. Changes: {\"id\":1732643395943,\"name\":\"admin\",\"perks\":[true,true,false,false,false]}"
+    },
+    {
+      "id": 1732643400568,
+      "timestamp": "2024-11-26T17:50:00.568Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role admin. Changes: {\"id\":1732643395943,\"name\":\"admin\",\"perks\":[true,true,true,false,false]}"
+    },
+    {
+      "id": 1732643401779,
+      "timestamp": "2024-11-26T17:50:01.779Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role admin. Changes: {\"id\":1732643395943,\"name\":\"admin\",\"perks\":[true,true,true,true,false]}"
+    },
+    {
+      "id": 1732643402505,
+      "timestamp": "2024-11-26T17:50:02.505Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role admin. Changes: {\"id\":1732643395943,\"name\":\"admin\",\"perks\":[true,true,true,true,true]}"
+    },
+    {
+      "id": 1732643410377,
+      "timestamp": "2024-11-26T17:50:10.377Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added role mod"
+    },
+    {
+      "id": 1732643417960,
+      "timestamp": "2024-11-26T17:50:17.960Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added role supervisor"
+    },
+    {
+      "id": 1732643435895,
+      "timestamp": "2024-11-26T17:50:35.895Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated user Jane Smithg (jane.smith@example.comfg). Changes: {\"id\":2,\"name\":\"Jane Smithg\",\"email\":\"jane.smith@example.comfg\",\"role\":\"admin\"}"
+    },
+    {
+      "id": 1732643440998,
+      "timestamp": "2024-11-26T17:50:40.998Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated user harshit (gmail@gmia). Changes: {\"id\":1732602338418,\"name\":\"harshit\",\"email\":\"gmail@gmia\",\"role\":\"mod\"}"
+    },
+    {
+      "id": 1732643444878,
+      "timestamp": "2024-11-26T17:50:44.878Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated user Yash (Naik). Changes: {\"id\":1732640854588,\"name\":\"Yash\",\"email\":\"Naik\",\"role\":\"supervisor\"}"
+    },
+    {
+      "id": 1732643463100,
+      "timestamp": "2024-11-26T17:51:03.100Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added role Prefect"
+    },
+    {
+      "id": 1732643591191,
+      "timestamp": "2024-11-26T17:53:11.191Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added role member"
+    },
+    {
+      "id": 1732643595582,
+      "timestamp": "2024-11-26T17:53:15.582Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role member. Changes: {\"id\":1732643591191,\"name\":\"member\",\"perks\":[true,false,false,false,false]}"
+    },
+    {
+      "id": 1732643597409,
+      "timestamp": "2024-11-26T17:53:17.409Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role Prefect. Changes: {\"id\":1732643463100,\"name\":\"Prefect\",\"perks\":[false,true,false,false,false]}"
+    },
+    {
+      "id": 1732643600316,
+      "timestamp": "2024-11-26T17:53:20.316Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role mod. Changes: {\"id\":1732643410377,\"name\":\"mod\",\"perks\":[false,false,true,false,false]}"
+    },
+    {
+      "id": 1732643601730,
+      "timestamp": "2024-11-26T17:53:21.730Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role mod. Changes: {\"id\":1732643410377,\"name\":\"mod\",\"perks\":[false,false,true,true,false]}"
+    },
+    {
+      "id": 1732643603715,
+      "timestamp": "2024-11-26T17:53:23.715Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role supervisor. Changes: {\"id\":1732643417960,\"name\":\"supervisor\",\"perks\":[false,true,false,false,false]}"
+    },
+    {
+      "id": 1732643604408,
+      "timestamp": "2024-11-26T17:53:24.408Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role supervisor. Changes: {\"id\":1732643417960,\"name\":\"supervisor\",\"perks\":[true,true,false,false,false]}"
+    },
+    {
+      "id": 1732643606172,
+      "timestamp": "2024-11-26T17:53:26.172Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role supervisor. Changes: {\"id\":1732643417960,\"name\":\"supervisor\",\"perks\":[true,true,false,true,false]}"
+    },
+    {
+      "id": 1732643607082,
+      "timestamp": "2024-11-26T17:53:27.082Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role supervisor. Changes: {\"id\":1732643417960,\"name\":\"supervisor\",\"perks\":[true,true,false,true,true]}"
+    },
+    {
+      "id": 1732643608891,
+      "timestamp": "2024-11-26T17:53:28.891Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated role Prefect. Changes: {\"id\":1732643463100,\"name\":\"Prefect\",\"perks\":[false,true,false,true,false]}"
+    },
+    {
+      "id": 1732643672695,
+      "timestamp": "2024-11-26T17:54:32.695Z",
+      "role": "Admin",
+      "eventType": "Update",
+      "changes": "Updated user Yash (Naik). Changes: {\"id\":1732640854588,\"name\":\"Aryan\",\"email\":\"Singh\",\"role\":\"supervisor\"}"
+    },
+    {
+      "id": 1732643693591,
+      "timestamp": "2024-11-26T17:54:53.591Z",
+      "role": "Admin",
+      "eventType": "Create",
+      "changes": "Added user Amogh (amogh@gmail.com) with role Prefect"
+    }
+  ]
+}
