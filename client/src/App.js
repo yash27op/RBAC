@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 import UsersPage from "./components/UsersPage";
 import RolesPage from "./components/RolesPage";
 import AuditLogsPage from "./components/AuditLogsPage";
-import LoginPage from "./components/LoginPage";
+#import LoginPage from "./components/LoginPage";
 import ProfilePage from "./components/ProfilePage";
 import Navbar from "./components/Navbar";
 import './App.css';
